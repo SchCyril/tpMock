@@ -10,6 +10,8 @@ import org.mockito.Mockito;
 
 import com.google.gson.Gson;
 
+import fr.dta.mock.HttpDataService;
+
 public class MyIpTest {
 
 	private HttpDataService httpDataServiceMock;

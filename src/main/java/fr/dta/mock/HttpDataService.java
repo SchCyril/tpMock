@@ -1,4 +1,4 @@
-package fr.dta.Mock;
+package fr.dta.mock;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package fr.dta.Mock;
+package fr.dta.mock;
 
 import static org.junit.Assert.assertEquals;
 
@@ -10,7 +10,7 @@ import org.mockito.Mockito;
 
 import com.google.gson.Gson;
 
-import fr.dta.mock.HttpDataService;
+
 
 public class MyIpTest {
 

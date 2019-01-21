@@ -12,9 +12,9 @@ public class MyIpService {
 	}
 
 	public String getMyIp() {
-	Gson gson = new Gson();
-	String jsonIp = httpDataService.getJsonIp();
-	Map <String, String> map = gson.<Map<String, String>>fromJson(jsonIp, Map.class);
-	return map.get("ip").split(",")[0];
+		Gson gson = new Gson();
+		String jsonIp = httpDataService.getJsonIp();
+		Map<String, String> map = gson.<Map<String, String>>fromJson(jsonIp, Map.class);
+		return map.get("ip").split(",")[0];
 	}
 }

@@ -4,8 +4,6 @@ import java.io.IOException;
 
 import org.apache.http.client.fluent.Request;
 
-
-
 public class HttpDataService {
 	private static String url = "http://jsonip.com";
 

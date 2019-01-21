@@ -13,6 +13,6 @@ public class Main {
 		MyIpService mis = new MyIpService(hts);
 
 		LOGGER.info(mis.getMyIp());
-		System.out.println();
+		
 	}
 }

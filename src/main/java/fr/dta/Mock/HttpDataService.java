@@ -7,7 +7,7 @@ import org.apache.http.client.fluent.Request;
 
 
 public class HttpDataService {
-	public static String url = "http://jsonip.com";
+	private static String url = "http://jsonip.com";
 
 	public String getJsonIp() {
 		try {
